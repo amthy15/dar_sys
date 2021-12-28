@@ -6,7 +6,7 @@ setup(
     packages=find_packages(include=['dar_sys', 'dar_sys.*']),
     entry_points={
         'console_scripts': ['start=dar_sys.dar_api:main']
-    }
+    },
     install_requires=[
         'uvicorn',
         'fastapi',
