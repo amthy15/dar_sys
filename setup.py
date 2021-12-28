@@ -8,7 +8,7 @@ setup(
         'console_scripts': ['start=dar_sys.dar_api:main']
     },
     install_requires=[
-        'uvicorn',
+        'uvicorn[standard]',
         'fastapi',
         'sqlalchemy'
     ]
