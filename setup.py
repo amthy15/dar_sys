@@ -9,7 +9,6 @@ setup(
     },
     install_requires=[
         'shapely',
-        'uvicorn[standard]',
         'fastapi',
         'sqlalchemy'
     ]
