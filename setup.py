@@ -8,6 +8,7 @@ setup(
         'console_scripts': ['start=dar_sys.dar_api:main']
     },
     install_requires=[
+        'shapely',
         'uvicorn',
         'fastapi',
         'sqlalchemy'
