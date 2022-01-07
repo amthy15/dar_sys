@@ -5,7 +5,7 @@ description = ""
 authors = ["avm7177 <amthy15@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.7.10"
 SQLAlchemy = "^1.4.29"
 fastapi = "^0.71.0"
 Shapely = "^1.8.0"
