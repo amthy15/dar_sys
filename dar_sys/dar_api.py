@@ -1,4 +1,4 @@
-import fastapi as fa
+from fastapi import FastAPI
 
 app = FastAPI()
 
